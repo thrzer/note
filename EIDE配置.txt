@@ -1,0 +1,21 @@
+CubeMX部分
+
+1. 配置SYS，RCC，TIM
+2. c8t6的freertos只能选v1，f407可以选v2
+3. makefile导出
+
+VScode部分
+
+1. 创建Cortex项目
+2. 复制core、drivers、middleware文件夹
+3. 编译器选gcc，复制ld文件名并写入
+4. 加入源文件和.s文件（右键选择添加文件）
+5. 加入头文件目录、资源库、预宏定义，内容从cmake文件找
+6. 如果stlink烧录失败，可以选择openocd，选择对应的芯片型号烧录
+7. OpenOcd调试必须无中文路径，注意vscode的拓展路径（需要去注册表修改）和armgnu、openocd.exe路径
+
+DJI3508使用
+
+1. 主频率不能光自动配置，需要一一确认（可以查看以往工程）
+2. 串级pid只发送速度环结果
+3. CAN数据接收回调函数存在即可，不需要写入主函数或某线程函数内外
