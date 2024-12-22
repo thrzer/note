@@ -1,6 +1,5 @@
-
 # C++笔记   
-by：侯颛
+by：thrzer
 - [C++笔记](#c笔记)
   - [初始化列表(initialization list)](#初始化列表initialization-list)
   - [友元函数：关键字 friend](#友元函数关键字-friend)
