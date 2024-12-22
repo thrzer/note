@@ -1,4 +1,4 @@
-by：侯颛
+by：thrzer
 
 - [Ubuntu](#ubuntu)
   - [路径](#路径)
