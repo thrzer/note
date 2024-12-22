@@ -1,4 +1,4 @@
-by：侯颛
+by：thrzer
 
 - [MATLAB](#matlab)
   - [快捷键](#快捷键)
